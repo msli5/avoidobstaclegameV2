@@ -134,24 +134,24 @@ function mousePressed(){
    textAlign(CENTER, CENTER);
   //easy level button
   if(collidePointRect(mouseX,mouseY,40,540,80,30)){
-    obstacleSpeedX=2.5;
-    obstacleSpeedY=2.4;
+    obstacleSpeedX=3.5;
+    obstacleSpeedY=2;
   }
   
   //medium level button
   else if(collidePointRect(mouseX,mouseY,220,540,80,30)){
-    obstacleSpeedX=4.5;
-    obstacleSpeedY=4.4;
+    obstacleSpeedX=5.5;
+    obstacleSpeedY=4;
   }
   
   //hard level button
   else if(collidePointRect(mouseX,mouseY,380,540,80,30)){
-    obstacleSpeedX=8.5;
-    obstacleSpeedY=8.4;
+    obstacleSpeedX=8;
+    obstacleSpeedY=9.5;
   }
   
   else{
         obsNewSpeedX=1.5;
-    obsNewSpeedY=1.4;
+    obsNewSpeedY=1;
   }
 }//close mousePressed
